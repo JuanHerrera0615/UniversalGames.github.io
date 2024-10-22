@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Games - Reservaciones</title>
+    <link rel="stylesheet" href="images/images/logo.svg">
+    <link rel="stylesheet" href="style_reservaciones.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="images/images/logo.svg" alt=""></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="reservaciones.html">Reservaciones</a></li>
+                    <li><a href="contactenos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Realiza tu reservación fácilmente</span>
+                <h1>Reserva tu lugar<br>en nuestro servicio</h1>
+                <a href="#" class="btn-1">Ir al formulario</a>
+                <div class="header.img">
+                    <img src="images/images/right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="reservaciones container">
+        <div class="txt">
+            <h2>Reservaciones Disponibles</h2>
+            <a href="#" class="btn-2">Ver más</a>
+        </div>
+        <div class="reservaciones-content">
+            <div>
+                <img src="images/images/r1.jpg" alt="Reservación 1">
+                <h3>Reservación de Sala Privada</h3>
+                <p>Disfruta de una sala privada para tus juegos con amigos.</p>
+                <div class="follo">
+                   <img src="images/images/heart.svg" alt="Corazón">
+                   <h3>50 reservas</h3> 
+                </div>
+            </div>
+            <div>
+                <img src="images/images/r2.jpg" alt="Reservación 2">
+                <h3>Evento de Torneo</h3>
+                <p>Participa en nuestros torneos y gana increíbles premios.</p>
+                <div class="follo">
+                   <img src="images/images/heart.svg" alt="Corazón">
+                   <h3>30 reservas</h3> 
+                </div>
+            </div>
+            <div>
+                <img src="images/images/r3.jpg" alt="Reservación 3">
+                <h3>Fiesta de Cumpleaños</h3>
+                <p>Celebra tu cumpleaños con una fiesta temática de videojuegos.</p>
+                <div class="follo">
+                   <img src="images/images/heart.svg" alt="Corazón">
+                   <h3>20 reservas</h3> 
+                </div>
+            </div>
+            <div>
+                <img src="images/images/r4.jpg" alt="Reservación 4">
+                <h3>Clases de Gaming</h3>
+                <p>Aprende de los mejores en nuestras clases de gaming.</p>
+                <div class="follo">
+                   <img src="images/images/heart.svg" alt="Corazón">
+                   <h3>15 reservas</h3> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about container">
+        <div class="txt">
+             <h2>¿Cómo Reservar?</h2>
+             <a href="#" class="btn-2">Ver más</a>
+        </div>
+        <div class="about-content">
+            <div class="about-1">
+                <img src="images/images/b1.jpg" alt="Instrucciones de Reservación">
+                <h3>
+                    Para realizar una reservación, simplemente selecciona el tipo de reservación que deseas y completa el formulario con tus datos. ¡Es fácil y rápido!
+                </h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="reservaciones container">
+        <h2>Formulario de Reservación</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha">Fecha de Reservación:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form-group">
+                <label for="hora">Hora de Reservación:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+            <div class="form-group">
+                <label for="personas">Número de Juegos:</label>
+                <input type="number" id="personas" name="personas" min="1" required>
+            </div>
+            <button type="submit" class="btn-2">Enviar Reservación</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">WhatsApp</a></li>
+    </footer>
+    
+
+</body>
+</html>
